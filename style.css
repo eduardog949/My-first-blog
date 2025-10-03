@@ -1,0 +1,374 @@
+body {
+
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 20px;
+}
+
+a {
+  color: black;
+  padding: 0;
+  margin: 0;
+  margin-right: 30px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  margin-right: 30px;
+}
+
+.shop-ul {
+  margin-left: 20px;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.bogo {
+
+  height: 50px;
+  border-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+
+
+
+}
+
+.bogo-deal {
+  text-decoration: under;
+  color: white;
+  font-family: bebas neue;
+  font-size: 16px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  width: 1000%;
+  min-width: min-content;
+
+}
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  height: 80px;
+  margin-bottom: 30px;
+  background-color: yellow;
+  min-width: min-content
+}
+
+.left-nav,
+.middle-nav,
+.right-nav {
+  display: flex;
+}
+
+.left-nav {
+
+  font-family: bebas neue;
+  margin-left: 20px;
+  align-items: center;
+  font-size: 20px;
+
+}
+
+.middle-nav {
+
+  justify-content: center;
+
+}
+
+.right-nav {
+  font-family: bebas neue;
+  justify-content: flex-end;
+
+
+}
+
+.logo-pic {
+  width: 70px;
+  height: 70px;
+}
+
+.search-icon,
+.comment-icon {
+  width: 30px;
+}
+
+.search-icon {
+  margin-right: 20px;
+}
+
+.comment-container {
+  display: flex;
+  gap: 60px;
+  word-spacing: 3px;
+  text-align: center;
+  word-wrap: break-word;
+  border-style: solid;
+  border-radius: 20px 6px 14px;
+  border-color: white;
+  border-width: 2px;
+  background-color: white;
+  max-width: 500px;
+  height: max-content;
+}
+
+
+.comment-section-icon {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  vertical-align: top;
+}
+
+
+
+.user-name {
+  display: flex;
+  flex-direction: column;
+  flex: 1fr 1fr;
+  margin-top: 10px;
+  margin-left: -100px;
+  justify-content: center;
+  overflow: hidden;
+  margin-right: 100px;
+}
+
+.user-icon {
+  margin-right: 50px;
+  margin-left: 10px;
+
+}
+
+
+
+
+#months-ago, #months-ago-2 {
+  font-size: 12px;
+}
+
+
+.thread-title, .thread-title-2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+}
+
+
+
+.actual-comment {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  margin-top: 16px;
+}
+
+.thread-pic {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  border: solid;
+  border-color: black;
+}
+
+.post-pic-icons {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.post-pic-icon-1 {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.row-container {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  justify-content: center;
+  color: white;
+  row-gap: 12px;
+  grid-row: 2/3;
+  min-width: min-content;
+}
+
+
+
+#row-container-2 {
+
+  margin-top: 12px;
+  min-width: min-content;
+
+}
+
+.try-this {
+  color: white;
+  font-size: 20px;
+}
+
+
+
+.nav-side {
+  font-family: bebas neue;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 20px 6px 4px;
+  text-align: center;
+  vertical-align: bottom;
+  max-width: 300px;
+  max-height: 250px;
+  min-width: 300px;
+  min-height: 250px;
+}
+
+
+
+
+.page-container {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  align-items: center;
+  justify-content: center;
+  row-gap: 4px;
+
+}
+
+.side-page-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  column-gap: 10px;
+  grid-row: 1;
+  justify-items: center;
+  align-items: center;
+  gap: 1px;
+
+  
+}
+
+.grouped-containers {
+ display: flex;
+  gap: 30px;
+  margin-top: 30px;
+
+}
+
+
+
+.side-page-stuff-news {
+  font-size: 50px;
+  color: white;
+
+
+}
+
+
+.side-page-stuff-click {
+  font-size: 14px;
+  color: yellow;
+
+}
+
+.side-page-stuff {
+  color: yellow;
+  font-size: 20px;
+
+}
+
+
+
+
+#ns-1 {
+  display: flex;
+  flex: 1fr 2fr;
+  flex-direction: column-reverse;
+}
+
+.button-list {
+  width: 300px;
+  height: max-content;
+ 
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.side-title {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.side-content {
+  margin-top: 5px;
+  font-size: 14px;
+  font-family:  sans-serif;
+  color:white;
+}
+
+.thoughts-row {
+  display: grid;
+  grid-template-rows: 1 fr;
+  row-gap: 20px;
+  color: white;
+}
+
+.actual-thought-posting {
+   border: solid;
+  border-color: yellow;
+  border-radius: 24px 6px 10px;
+}
+
+#first-week {
+  background-image: url("broken-heart.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: blue;
+}
+
+#seperate-heart {
+  background-image: url("seperate-heart.png");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#night-sky{
+background-image: url("night-sky.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#white-text-name, #months-ago-2 {
+  color: white;
+}
+
+#seperate-heart-comment, .thread-title-2 {
+  color: white;
+}
