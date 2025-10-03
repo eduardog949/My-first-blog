@@ -372,3 +372,30 @@ background-image: url("night-sky.jpg");
 #seperate-heart-comment, .thread-title-2 {
   color: white;
 }
+
+    @media (max-width: 768px) { /* Adjust breakpoint as needed */
+      .side-page-row {
+        grid-template-columns: 1fr; /* Single column layout */
+      }
+    }
+
+
+      @media (max-width: 768px) {.grouped-containers {
+
+  display:grid;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+      }
+
+@media (max-width: 768px){
+  .comment-container{
+    max-width: 320px;
+  }
+ .button-list {
+    margin-left: 10px;
+  }
+}
+}
+
+    
